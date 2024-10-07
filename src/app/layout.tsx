@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "social | iberdi seven",
+  title: "iberde | social igrejas",
   description: "Social ibedi iasd",
 };
 

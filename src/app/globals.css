@@ -16,3 +16,24 @@ body {
 .font_Marcellus-logo {
   font-family: "Marcellus", serif;
 }
+
+.efect_shadow-l {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(13, 123, 174, 0.052);
+  clip-path: polygon(100% 0, 60% 0, 100% 100%, 0% 100%);
+}
+.efect_shadow-r {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(13, 123, 174, 0.052);
+  clip-path: polygon(50% 0, 20% 0, 50% 100%, 0 50%);
+}
